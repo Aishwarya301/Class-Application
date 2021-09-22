@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#072342"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="559dp"
+        android:text="   Aissms College of Engineering"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="381dp"
+        app:srcCompat="@drawable/aissms" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#74C2E8"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="16dp"
+        android:text="AISSMS (All India Shri Shivaji Memorial Society's) College of Engineering is a private engineering college located in Pune, Maharashtra, India. The college is affiliated with the University of Pune and was founded by Chhatrapati Shri Shahu Maharaj of Kolhapur, leading to the college's establishment in 1992. The institute is located close to the Regional Transport Office and shares its campus with a pharmacy college, Polytechnic and business school. At present, AISSMS offers bachelor's degrees in eight branches of engineering : Chemical Engineering,Civil Engineering
+    Computer Engineering, Electrical Engineering,Electronics Engineering, Mechanical Engineering,Mechanical Engineering (Sandwich), Production Engineering (Sandwich)(semiautonomus)
+ "/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="665dp"
+        android:background="#072342"
+        android:text="About Institute"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="665dp"
+        android:background="#072342"
+        android:text="About Faculty"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="653dp"
+        android:background="#74C2E8" />
+
+</RelativeLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".institute">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="439dp"
+        android:layout_height="272dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="462dp"
+        app:srcCompat="@drawable/aissms"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:text="          On Nov 10, 1917, Rajarshi Chhatrapati Shahu Maharaj announced in Delhi,
+his proposal to establish a Memorial of Chhatrapati Shivaji Maharaj in the City of Pune.
+In the proposal, he declared his intention of creating a central hall with Chhatrapati
+Shivaji Maharaj’s life size statue and a hostel to accommodate a hundred Maratha students.
+The institute was to act as a rallying centre for Maratha activities all over India, giving
+a concrete shape and impetus to the diverse endeavours for the advancement of the Maratha
+community.Rajarshi Chhatrapati Maharaj wrote letters to Rajesaheb of Dhar and Dewas and
+said it was a psychological movement to do the work. Demanding a liberal and prompt support
+from all the Maratha Rulers, Rajarshi Chhatarapati Shahu Maharaj a dded that the matter
+stood very near his heart. To enlist their support, he sent Pawar and Khaserao Jadhav to
+them. Khaserao took an active interest in the education of the Marathas and was entrusted
+with the execution of the scheme about the Shri Shivaji Memorial. At the end of November
+1917, Khaserao visited Pune and sent an estimate to Rajarshi Chhatrapati Shahu Maharaj for
+ the building, lands and other things. The cost of the memorial estimated at Rupees three lakhs."
+        android:textColor="#1878D8"
+        android:textSize="21dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="314dp" />
+</RelativeLayout>-->

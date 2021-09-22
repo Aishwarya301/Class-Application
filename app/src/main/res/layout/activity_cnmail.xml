@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#050D5A"
+    android:padding="25sp"
+    tools:context=".cnmail">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:background="@drawable/gmailpic"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_round">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="to"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_to"
+            android:text="prajaktamodhave07@gmail.com"
+            android:textColor="#FFF"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_round">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject:"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_sub"
+            android:text=" Query regarding CN sub"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFF"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/et_msg"
+        android:text="Message : "
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_round"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_send"
+        android:text="Send"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:background="@drawable/bg_round"/>
+
+</LinearLayout>

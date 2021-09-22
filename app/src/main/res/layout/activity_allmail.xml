@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050D5A"
+    tools:context=".allmail">
+
+
+    <TextView
+        android:id="@+id/allmailtext"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="You can mail your queries here..."
+        android:textColor="#F4F5F6"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/CN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allmailtext"
+        android:layout_marginTop="40dp"
+        android:text="CN"
+        android:layout_marginLeft="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp" />
+    <Button
+        android:id="@+id/TOC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOC"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@+id/CN"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <Button
+        android:id="@+id/SEPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEPM"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@+id/TOC"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <Button
+        android:id="@+id/DBMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DBMS"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@+id/SEPM"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <Button
+        android:id="@+id/ISEE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISEE"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@+id/DBMS"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25sp"
+    android:background="#072342"
+    tools:context=".help_email">
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="110dp"
+        android:background="@drawable/gmail" />
+
+    <LinearLayout
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="to"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Subject :"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_sub"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="326dp"
+        android:layout_height="402dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round"
+        android:gravity="top"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:text="Hello sir,
+                                                           "/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_send"
+        android:text="Send"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_round"/>
+
+
+</LinearLayout>

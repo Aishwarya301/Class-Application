@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#072342"
+    tools:context=".about_faculty">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="634dp"
+        android:background="#74C2E8" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="648dp"
+        android:background="#072342"
+        android:text="About Institute"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="177dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="649dp"
+        android:background="#072342"
+        android:text="About Faculty"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="428dp"
+        android:background="#072342" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="217dp"
+        android:background="#74C2E8" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#072342" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="133dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="532dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="133dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="326dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="133dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="326dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="133dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="111dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="133dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="110dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="532dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="184dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="440dp"
+        android:paddingTop="10dp"
+        android:text="Name : Ms. S Nalamwar      Subject : DBMS     Experience : 10 Years "
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="184dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="17dp"
+        android:paddingTop="10dp"
+        android:text="Name : Shikha Pachouly  Subject : Computer Network Experience : 5 Years "
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="184dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="10dp"
+        android:text="Name : Shikha Pachouly  Subject : Computer Network Experience : 5 Years "
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="184dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="234dp"
+        android:paddingTop="10dp"
+        android:text="Name : Shikha Pachouly  Subject : Computer Network Experience : 5 Years "
+        android:textColor="#072342" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="184dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="231dp"
+        android:paddingTop="10dp"
+        android:text="Name : Minal Swami  Subject : SDL         Experience : 5 Years "
+        android:textColor="#072342" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="182dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="444dp"
+        android:paddingTop="10dp"
+        android:text="Name : Shikha Pachouly  Subject : Computer Network Experience : 5 Years "
+        android:textColor="#FFF" />
+
+</RelativeLayout>

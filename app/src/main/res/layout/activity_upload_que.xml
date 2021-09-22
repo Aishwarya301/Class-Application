@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3DFF8"
+    tools:context=".upload_que">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="688dp"
+        android:gravity="center"
+        android:text="Question Details"
+        android:textColor="#033261"
+        android:textSize="26dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="662dp"
+        android:text="Subject Name"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="470dp">
+
+        <RadioButton
+            android:id="@+id/cn"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:text=" Computer Network"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/dbms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:text=" Database Management System"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/toc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:text=" Theory Of Computation"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/sepm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:text=" Software Engg and Process  management"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/isee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:text="  Information System and Engineering"
+            android:textSize="17dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/que_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="419dp"
+        android:ems="10"
+        android:hint="Question No."
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="689dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="0dp"
+        android:background="#072342"
+        android:text=" Click Picture"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/upload_que"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="689dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#072342"
+        android:text="Upload Question"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/view_que"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="689dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="0dp"
+        android:background="#072342"
+        android:text="View  Question"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="296dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="46dp"
+        android:background="#B2E7EB" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="357dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="353dp"
+        android:gravity="center"
+        android:text="Question will be here..."
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

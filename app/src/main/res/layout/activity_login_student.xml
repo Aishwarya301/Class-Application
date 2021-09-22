@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#072342"
+    tools:context=".login_teacher">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="523dp"
+        android:background="#072342"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="693dp"
+        android:text="Student Login"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="566dp"
+        app:srcCompat="@drawable/student_icon2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="597dp"
+        android:text="Welcome"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="568dp"
+        android:text="Learner"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="325dp"
+        android:layout_height="523dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFF" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="364dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="399dp"
+        android:background="#072342"
+        android:text="View Question"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/but7"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="265dp"
+        android:background="#072342"
+        android:text="View Announcements"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="364dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="333dp"
+        android:background="#74C2E8"
+        android:text="Syllabus Clarification Review"
+        android:textColor="#072342" />
+
+    <Button
+        android:id="@+id/but6"
+        android:layout_width="364dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="201dp"
+        android:background="#74C2E8"
+        android:text="Email Your Queries"
+        android:textColor="#072342" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="364dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="463dp"
+        android:background="#74C2E8"
+        android:text="MCQ Test"
+        android:textColor="#072342" />
+
+</RelativeLayout>
